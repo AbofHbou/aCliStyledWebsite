@@ -1,0 +1,29 @@
+body { /* Setting the font to a monospace terminal style. */
+  background-color: black;
+  font-family: monospace;
+  color: white;
+  font-size: 12px;
+}
+
+ul { /* Styling list in a somewhat terminal fashion. */
+  font-size: 24px;
+  list-style-type: square;
+}
+
+/* This is used in making the terminal cursor blink. */
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+  0%{color: white;}
+  49%{color: white;}
+  60%{color: transparent;}
+  99%{color:transparent;}
+  100%{color: white;}
+}
+
+/* Scaling the links to match the terminals font. */
+a{
+  font-size: 24px
+}
