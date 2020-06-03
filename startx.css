@@ -64,6 +64,5 @@
 }
 
 .window:hover {
-  margin: 0px;
-  margin-bottom: 15px;
+  border: 5px solid gray;
 }
