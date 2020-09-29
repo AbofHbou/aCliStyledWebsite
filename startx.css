@@ -26,7 +26,6 @@ body {
 .navbar a:hover {
   background-color: #ddd;
   color: black;
-  filter: blur(5px);
 }
 
 /* Add a color to the active/current link */
@@ -70,4 +69,5 @@ body {
 
 .window:hover {
   border: 5px solid rgb(128, 128, 128);
+  filter: blur(5px);
 }
